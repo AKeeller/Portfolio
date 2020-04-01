@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+@media (prefers-color-scheme: dark) {
+    img {
+      opacity: 90%;
+    }
+}
+
 .picture{
     width: 100px;
     height: 100px;
@@ -29,4 +35,5 @@ img.hoverImages:hover {
 a,h1 {
     font-family: 'Roboto Mono', monospace;
     margin: 2px;
+    margin-left: 20px;
 }
