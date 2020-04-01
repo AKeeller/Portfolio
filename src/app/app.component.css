@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 .picture{
     width:100px;
     height:100px;
@@ -25,5 +27,6 @@ img.hoverImages:hover {
 }
 
 a,h1 {
+    font-family: 'Roboto Mono', monospace;
     margin: 2px;
 }
