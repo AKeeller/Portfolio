@@ -12,7 +12,7 @@
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-    padding:20px;
+    margin:20px;
 }
 
 .container {
@@ -42,5 +42,5 @@ a,h1 {
 }
 
 h1 {
-    font-size: calc(1.2rem + 2vw)
+    font-size: clamp(16px, 8vw, 32px);
 }
