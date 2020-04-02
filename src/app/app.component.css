@@ -33,11 +33,9 @@ img.hoverImages:hover {
     margin-top: 10px;
 }
 
-a,h1 {
+.nickname,h1 {
     font-family: 'Roboto Mono', monospace;
     margin: 0 auto;
-    /* max-width: 100%; */
-    /* min-width: max-content; */
     white-space: nowrap;
 }
 
