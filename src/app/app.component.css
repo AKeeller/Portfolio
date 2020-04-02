@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
-@media (prefers-color-scheme: dark) {
-    img {
-      opacity: 90%;
-    }
-}
-
 .picture{
     width: 100px;
     height: 100px;
@@ -15,7 +9,7 @@
     margin:20px;
 }
 
-.container {
+.header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
