@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 @media (prefers-color-scheme: dark) {
-    body {
-      background-color: black;
-      color: #ccc;
-    }
-    img {
-      opacity: 90%;
-    }
+  body {
+    background-color: black;
+    color: #ccc;
+  }
+  img {
+    opacity: 90%;
+  }
 }

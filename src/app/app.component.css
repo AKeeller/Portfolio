@@ -1,70 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
 
 .whole-page {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .whole-page-inner {
-    align-self: center;
-    max-width: 500px;
+  align-self: center;
+  max-width: 500px;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
 
 .picture{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-    margin:20px 20px 20px 0px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  margin:20px 20px 20px 0px;
 }
 
 h1, h2, p, a {
-    font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .nickname, .fullname {
-    margin: 0 auto;
-    white-space: nowrap;
+  margin: 0 auto;
+  white-space: nowrap;
 }
 
 .nickname {
-    text-decoration: none;
-    color:currentColor;
+  text-decoration: none;
+  color:currentColor;
 }
 
 .fullname {
-    font-size: clamp(2px, 9vw, 32px);
+  font-size: clamp(2px, 9vw, 32px);
 }
 
 hr {
-    opacity: 40%;
-    border-width: 0.3px;
-    margin-top: 60px;
-    margin-bottom: 20px;
+  opacity: 40%;
+  border-width: 0.3px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 500px) {
-    .header {
-        flex-direction: column;
-    }
-    .picture {
-        margin: 20px 0px;
-    }
+  .header {
+    flex-direction: column;
+  }
+  .picture {
+    margin: 20px 0px;
+  }
 }
 
 @media (prefers-color-scheme: dark) and (min-resolution: 192dpi) {
-    .picture {
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ccc;
-    }
+  .picture {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+  }
 }
