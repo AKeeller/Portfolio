@@ -1,28 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-    <defs>
-        <style>
-            rect {
-                fill: #4595CE;
-            }
-            @media (prefers-color-scheme: dark) {
-                rect {
-                    fill: #202020;
-                }
-            }
-            .cls-2{
-                font-size:499.05px;
-                fill:#fff;
-                font-family:RobotoMono-Medium, Roboto Mono;
-                font-weight:500;
-            }
-        </style>
-    
-    </defs>
-    <title>Logo AKeeller</title>
-    <g id="Livello_1" data-name="Livello 1">
-        <rect width="512" height="512" rx="52" />
-    </g>
-    <g id="Livello_3" data-name="Livello 3">
-        <text class="cls-2" transform="translate(112.13 426.92) scale(0.96 1)">A</text>
-    </g>
+  <defs>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&amp;display=swap);
+      rect {
+        fill: #4595CE;
+      }
+
+      text {
+        font-size: 500px;
+        fill: white;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 500;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        rect {
+          fill: #202020;
+        }
+
+        text {
+          fill: #ccc;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="512" height="512" rx="52" />
+  <text x="50%" y="46%" dominant-baseline="central" text-anchor="middle">A</text>
+
 </svg>
