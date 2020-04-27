@@ -52,6 +52,12 @@ hr {
   margin-bottom: 20px;
 }
 
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 @media (max-width: 500px) {
   .header {
     flex-direction: column;
