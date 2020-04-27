@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Social } from './social';
 
 import {
   faFacebookF, faTelegram, faFacebookMessenger, faBitbucket, faGithub
@@ -16,5 +17,13 @@ import {
 export class AppComponent {
   title = 'Personal-Website';
 
-  socialIcons = [faFacebookF, faFacebookMessenger, faTelegram, faBitbucket, faGithub, faEnvelope];
+  socials: Social[] = [
+    { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
+    { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
+    { icon: faTelegram, link: "https://t.me/AKeeller" },
+    { icon: faBitbucket, link: "https://bitbucket.org/AKeeller/" },
+    { icon: faGithub, link: "https://github.com/AKeeller" },
+    { icon: faEnvelope, link: "mailto:alberto.am@me.com" }
+  ];
+
 }

@@ -36,7 +36,7 @@ h1, h2, p, a {
   white-space: nowrap;
 }
 
-.nickname {
+a {
   text-decoration: none;
   color:currentColor;
 }
@@ -58,11 +58,11 @@ span.social-icons {
   justify-content: space-around;
 }
 
-fa-icon.social-icons {
+a.social-icons {
   transition-duration: 0.3s;
 }
 
-fa-icon.social-icons:hover {
+a.social-icons:hover {
   transform: scale(1.3);
 }
 
