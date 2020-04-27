@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import {
-  faFacebookF, faTwitter, faTelegram, faFacebookMessenger
+  faFacebookF, faTelegram, faFacebookMessenger, faBitbucket, faGithub
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -16,5 +16,5 @@ import {
 export class AppComponent {
   title = 'Personal-Website';
 
-  socialIcons = [faFacebookF, faTwitter, faTelegram, faFacebookMessenger, faEnvelope];
+  socialIcons = [faFacebookF, faFacebookMessenger, faTelegram, faBitbucket, faGithub, faEnvelope];
 }
