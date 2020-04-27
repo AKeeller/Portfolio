@@ -52,7 +52,7 @@ hr {
   margin-bottom: 20px;
 }
 
-.social-icons {
+span.social-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;

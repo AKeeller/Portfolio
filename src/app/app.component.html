@@ -17,11 +17,7 @@
     </div>
 
     <span class="social-icons">
-      <fa-icon [icon]="faFacebook"></fa-icon>
-      <fa-icon [icon]="faTwitter"></fa-icon>
-      <fa-icon [icon]="faTelegram"></fa-icon>
-      <fa-icon [icon]="faFacebookMessenger"></fa-icon>
-      <fa-icon [icon]="faEnvelope"></fa-icon>
+      <fa-icon *ngFor="let icon of socialIcons" [icon]="icon"></fa-icon>
     </span>
 
   </div>
