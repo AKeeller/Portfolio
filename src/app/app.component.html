@@ -11,9 +11,9 @@
 
     <hr />
 
-    <div>
-      <h2>About</h2>
-      <p>Text here</p>
+    <div *ngFor="let about of abouts">
+      <h2 *ngIf="about.content">{{ about.title }}</h2>
+      <p *ngIf="about.content">{{ about.content }}</p>
     </div>
 
     <span class="social-icons">

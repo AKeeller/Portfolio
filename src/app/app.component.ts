@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+
 import { Social } from './social';
+import { About } from './about';
 
 import {
   faFacebookF, faTelegramPlane, faFacebookMessenger, faBitbucket, faGithub, faPaypal
@@ -14,6 +16,7 @@ import {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Personal-Website';
 
@@ -26,5 +29,28 @@ export class AppComponent {
     { icon: faPaypal, link: "https://www.paypal.me/AlbertoAmoruso" },
     { icon: faEnvelope, link: "mailto:alberto.am@me.com" }
   ];
+
+  abouts: About[] = [
+    { icon: faFacebookF, path: '../assets/about.txt', title: "About", content: null }
+  ];
+
+  constructor() {
+    for (const about of this.abouts) {
+      this.loadContent(about);
+    }
+  }
+
+  getFile = async (file: string)=> {
+    const response = await fetch(file);
+    return await response.text();
+  }
+
+  loadContent(about: About) {
+    this.getFile(about.path).then(value => {
+      about.content = value;
+    }).catch(_ => {
+      console.log('error loading ' + about.path);
+    });
+  }
 
 }
