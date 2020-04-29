@@ -11,7 +11,7 @@ import {
   faEnvelope, faAddressCard
 } from '@fortawesome/free-solid-svg-icons';
 
-import about from 'raw-loader!../assets/about.html';
+import about from 'html-loader!../assets/about.html';
 
 @Component({
   selector: 'app-root',
