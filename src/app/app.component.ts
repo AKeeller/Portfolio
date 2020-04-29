@@ -8,8 +8,10 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
-  faEnvelope
+  faEnvelope, faAddressCard
 } from '@fortawesome/free-solid-svg-icons';
+
+import about from 'raw-loader!../assets/about.html';
 
 @Component({
   selector: 'app-root',
@@ -31,26 +33,7 @@ export class AppComponent {
   ];
 
   abouts: About[] = [
-    { icon: faFacebookF, path: '../assets/about.txt', title: "About", content: null }
+    { icon: faAddressCard, path: '../assets/about.txt', title: "About", content: about }
   ];
-
-  constructor() {
-    for (const about of this.abouts) {
-      this.loadContent(about);
-    }
-  }
-
-  getFile = async (file: string)=> {
-    const response = await fetch(file);
-    return await response.text();
-  }
-
-  loadContent(about: About) {
-    this.getFile(about.path).then(value => {
-      about.content = value;
-    }).catch(_ => {
-      console.log('error loading ' + about.path);
-    });
-  }
 
 }

@@ -12,8 +12,12 @@
     <hr />
 
     <div *ngFor="let about of abouts">
-      <h2 *ngIf="about.content">{{ about.title }}</h2>
-      <p *ngIf="about.content">{{ about.content }}</p>
+      <span *ngIf="about.content">
+        <h2>
+          <fa-icon [icon]="about.icon" size="sm"></fa-icon>
+          {{ about.title }}</h2>
+      </span>
+      <p *ngIf="about.content" [innerHtml]="about.content"></p>
     </div>
 
     <span class="social-icons">
