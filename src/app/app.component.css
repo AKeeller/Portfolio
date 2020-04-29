@@ -59,6 +59,11 @@ span.social-icons {
 }
 
 a.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  min-height: 30px;
   transition-duration: 0.3s;
 }
 
