@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
 
 .whole-page {
-  display: flex;
-  flex-direction: column;
-}
-
-.whole-page-inner {
-  align-self: center;
-  max-width: 500px;
+  max-width: 600px;
+  margin: auto;
+  width: fit-content;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-self: center;
   align-items: center;
+  margin: auto;
 }
 
 .picture{
