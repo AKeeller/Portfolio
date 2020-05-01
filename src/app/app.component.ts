@@ -33,7 +33,7 @@ export class AppComponent {
   ];
 
   abouts: About[] = [
-    { icon: faAddressCard, path: '../assets/about.txt', title: "About", content: about }
+    { icon: faAddressCard, title: "About", content: about }
   ];
 
 }
