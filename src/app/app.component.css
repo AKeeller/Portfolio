@@ -38,7 +38,7 @@ a {
 }
 
 .fullname {
-  font-size: clamp(2px, 9vw, 32px);
+  font-size: min(32px, 9vw);
 }
 
 hr {
