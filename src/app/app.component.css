@@ -87,6 +87,9 @@ a.social-icons {
   .picture {
     margin: 20px 0px;
   }
+  hr.line {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) and (min-resolution: 192dpi) {
