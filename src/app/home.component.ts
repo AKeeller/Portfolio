@@ -8,10 +8,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
-  faEnvelope, faAddressCard
+  faEnvelope, faAddressCard, faTerminal
 } from '@fortawesome/free-solid-svg-icons';
 
 import about from 'html-loader!../assets/about.html';
+import code from 'html-loader!../assets/code.html';
 
 @Component({
   selector: 'home',
@@ -33,7 +34,8 @@ export class HomeComponent {
   ];
 
   abouts: About[] = [
-    { icon: faAddressCard, title: "About", content: about }
+    { icon: faAddressCard, title: "About", content: about },
+    { icon: faTerminal, title: "Code", content: code }
   ];
 
 }
