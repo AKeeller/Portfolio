@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import { Social } from './social';
-import { About } from './about';
+import { Social } from '../social';
+import { About } from '../about';
 
 import {
   faFacebookF, faTelegramPlane, faFacebookMessenger, faBitbucket, faGithub, faPaypal
@@ -11,8 +11,8 @@ import {
   faEnvelope, faAddressCard, faTerminal
 } from '@fortawesome/free-solid-svg-icons';
 
-import about from 'html-loader!../assets/about.html';
-import code from 'html-loader!../assets/code.html';
+import about from 'html-loader!../../assets/about.html';
+import code from 'html-loader!../../assets/code.html';
 
 @Component({
   selector: 'home',
