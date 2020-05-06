@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
 
-.whole-page {
-  margin: auto;
-  width: min-content;
-}
-
 .header {
   display: flex;
   flex-direction: row;
