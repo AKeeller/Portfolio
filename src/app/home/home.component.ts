@@ -21,8 +21,7 @@ import code from 'html-loader!../../assets/code.html';
 })
 
 export class HomeComponent {
-  title = 'Personal-Website';
-
+  
   socials: Social[] = [
     { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
     { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
