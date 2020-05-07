@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
-
 .header {
   display: flex;
   flex-direction: row;
@@ -17,27 +15,13 @@
   margin:20px 20px 20px 0px;
 }
 
-h1, h2, p, a {
-  font-family: 'Roboto Mono', monospace;
-}
-
 .nickname, .fullname {
   margin: 0 auto;
   white-space: nowrap;
 }
 
-a {
-  text-decoration: none;
-  color:currentColor;
-}
-
 .fullname {
   font-size: min(32px, 9vw);
-}
-
-hr {
-  opacity: 40%;
-  border-width: 0.3px;
 }
 
 hr.divisor {

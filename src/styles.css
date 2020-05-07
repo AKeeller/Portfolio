@@ -1,5 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+h1, h2, p, a {
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color:currentColor;
+}
+
+hr {
+  opacity: 40%;
+  border-width: 0.3px;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
