@@ -1,25 +1,27 @@
-<div class="header">
+<header class="header">
   <img class="picture" src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Profile picture">
   <div>
     <h1 class="fullname">Alberto Amoruso</h1>
     <a class="nickname" target="_blank" href="https://t.me/AKeeller">@AKeeller</a>
   </div>
-</div>
+</header>
 
 <hr class="divisor" />
 
-<div class="about" *ngFor="let about of abouts">
-  <h2>
+<section class="about" *ngFor="let about of abouts">
+  <h1>
     <fa-icon [icon]="about.icon" size="sm"></fa-icon>
     {{ about.title }}
-  </h2>
+  </h1>
   <p [innerHtml]="about.content"></p>
-</div>
+</section>
 
-<span class="social-icons">
-  <hr class="line" />
-  <a  class="social-icons" [href]="social.link" target="_blank" *ngFor="let social of socials">
-    <fa-icon [icon]="social.icon"></fa-icon>
-  </a>
-  <hr class="line" />
-</span>
+<footer>
+  <span class="social-icons">
+    <hr class="line" />
+    <a  class="social-icons" [href]="social.link" target="_blank" *ngFor="let social of socials">
+      <fa-icon [icon]="social.icon"></fa-icon>
+    </a>
+    <hr class="line" />
+  </span>
+</footer>

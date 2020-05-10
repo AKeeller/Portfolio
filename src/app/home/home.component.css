@@ -78,6 +78,6 @@ a.social-icons {
   .picture {
     border-style: solid;
     border-width: 1px;
-    border-color: #ccc;
+    border-color: currentColor;
   }
 }
