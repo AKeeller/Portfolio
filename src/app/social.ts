@@ -1,6 +1,6 @@
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 export interface Social {
-    icon: IconDefinition;
-    link: string;
+  icon: IconDefinition;
+  link: string;
 }
