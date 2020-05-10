@@ -39,13 +39,16 @@ hr.line {
   margin-top: 30px;
 }
 
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 span.social-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 a.social-icons {
