@@ -10,8 +10,6 @@ import {
   faEnvelope, faAddressCard, faTerminal, faFileUpload
 } from '@fortawesome/free-solid-svg-icons';
 
-import * as moment from 'moment';
-
 @Component({
   selector: 'home',
   templateUrl: './home.component.html',
@@ -36,7 +34,8 @@ export class HomeComponent {
 
   get age() {
     const birthdate = new Date('1994-08-20');
-    return moment().diff(birthdate, 'years');
+    const diff = Date.now() - birthdate.getTime();
+    return Math.floor( diff / 1000 / 60 / 60 / 24 / 365.25 );
   }
 
 }
