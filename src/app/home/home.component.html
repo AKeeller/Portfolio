@@ -8,13 +8,22 @@
 
 <hr class="divisor" />
 
-<section class="about" *ngFor="let about of abouts">
-  <h1>
-    <fa-icon [icon]="about.icon" size="sm"></fa-icon>
-    {{ about.title }}
-  </h1>
-  <p [innerHtml]="about.content"></p>
-</section>
+
+<about class="about" [icon]="faTerminal" [title]="'About'">
+  I'm a {{ age }} years old guy.
+</about>
+
+<about class="about" [icon]="faAddressCard" [title]="'Code'">
+  These are my known programming languages:
+  <ul>
+    <li>C</li>
+    <li>C#</li>
+    <li>Java</li>
+    <li>Swift</li>
+  </ul>
+  Thank you very much.
+</about>
+
 
 <footer>
   <span class="social-icons">

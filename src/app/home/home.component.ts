@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 import { Social } from '../social';
-import { About } from '../about';
 
 import {
   faFacebookF, faTelegramPlane, faFacebookMessenger, faBitbucket, faGithub, faPaypal
@@ -11,8 +10,7 @@ import {
   faEnvelope, faAddressCard, faTerminal
 } from '@fortawesome/free-solid-svg-icons';
 
-import about from 'html-loader!../../assets/abouts/about.html';
-import code from 'html-loader!../../assets/abouts/code.html';
+import * as moment from 'moment';
 
 @Component({
   selector: 'home',
@@ -21,6 +19,9 @@ import code from 'html-loader!../../assets/abouts/code.html';
 })
 
 export class HomeComponent {
+
+  faAddressCard = faAddressCard;
+  faTerminal = faTerminal;
   
   socials: Social[] = [
     { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
@@ -32,9 +33,9 @@ export class HomeComponent {
     { icon: faEnvelope, link: "mailto:alberto.am@me.com" }
   ];
 
-  abouts: About[] = [
-    { icon: faAddressCard, title: "About", content: about },
-    { icon: faTerminal, title: "Code", content: code }
-  ];
+  get age() {
+    let birthdate = new Date('1994-08-20');
+    return moment().diff(birthdate, 'years');
+  }
 
 }
