@@ -12,7 +12,7 @@ a {
 }
 
 hr {
-  opacity: 40%;
+  opacity: 0.4;
   border-width: 0.3px;
 }
 
@@ -22,6 +22,6 @@ hr {
     color: #ccc;
   }
   img {
-    opacity: 90%;
+    opacity: 0.9;
   }
 }
