@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
-  faEnvelope, faAddressCard, faTerminal
+  faEnvelope, faAddressCard, faTerminal, faFileUpload
 } from '@fortawesome/free-solid-svg-icons';
 
 import * as moment from 'moment';
@@ -22,6 +22,7 @@ export class HomeComponent {
 
   faAddressCard = faAddressCard;
   faTerminal = faTerminal;
+  faFileUpload = faFileUpload;
   
   socials: Social[] = [
     { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
