@@ -34,7 +34,7 @@ export class HomeComponent {
   ];
 
   get age() {
-    let birthdate = new Date('1994-08-20');
+    const birthdate = new Date('1994-08-20');
     return moment().diff(birthdate, 'years');
   }
 
