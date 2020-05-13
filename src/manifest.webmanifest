@@ -1,0 +1,7 @@
+{
+  "name": "Alberto Amoruso",
+  "short_name": "Amoruso",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./"
+}
