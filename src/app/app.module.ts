@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './home/about/about.component';
+import { AboutMeComponent } from './home/more/about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
