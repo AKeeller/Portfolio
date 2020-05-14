@@ -11,13 +11,15 @@ import { AboutMeComponent } from './home/more/about-me/about-me.component';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { SocialIconsComponent } from './social-icons/social-icons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SocialIconsComponent
   ],
   imports: [
     BrowserModule,
