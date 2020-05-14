@@ -1,6 +1,7 @@
 <section style="margin-bottom: 50px;">
-  <h1>
-    <fa-icon [icon]="icon" size="sm"></fa-icon>
+  <h1 style="display: flex; flex-direction: row; align-items: center; white-space: nowrap;">
+    <fa-icon style="margin-right: 12px;" *ngIf="icon" [icon]="icon" size="sm"></fa-icon>
+    <img style="width: 50px; height: 50px; object-fit: contain; margin-right: 20px;" *ngIf="image" [src]="image">
     {{ title }}
   </h1>
   <ng-content></ng-content>

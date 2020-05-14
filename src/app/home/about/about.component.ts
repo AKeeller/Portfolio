@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'about[icon][title]',
+  selector: 'about[title]',
   templateUrl: './about.component.html'
 })
 export class AboutComponent {
@@ -12,5 +12,8 @@ export class AboutComponent {
 
   @Input()
   icon: IconDefinition;
+
+  @Input()
+  image: string;
 
 }
