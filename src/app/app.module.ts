@@ -12,6 +12,7 @@ import { AboutMeComponent } from './home/more/about-me/about-me.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { ProjectsComponent } from './home/more/projects/projects.component';
+import { BigTitleComponent } from './home/about/big-title.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProjectsComponent } from './home/more/projects/projects.component';
     HomeComponent,
     AboutComponent,
     AboutMeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    BigTitleComponent
   ],
   imports: [
     BrowserModule,
