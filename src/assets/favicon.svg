@@ -1,31 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <style type="text/css">
-      @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&amp;display=swap);
-      rect {
-        fill: #4595CE;
-      }
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4595CE;}
+	.st1{fill:#FFFFFF;}
 
-      text {
-        font-size: 500px;
-        fill: white;
-        font-family: 'Roboto Mono', monospace;
-        font-weight: 500;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        rect {
-          fill: #202020;
-        }
-
-        text {
-          fill: #ccc;
-        }
-      }
-    </style>
-  </defs>
-
-  <rect width="512" height="512" rx="52" />
-  <text x="50%" y="46%" dominant-baseline="central" text-anchor="middle">A</text>
-
+	@media (prefers-color-scheme: dark) {
+		.st0{fill:#202020;}
+		.st1{fill:#ccc;}
+	}
+</style>
+<g id="Livello_1">
+	<path class="st0" d="M460,512H52c-28.72,0-52-23.28-52-52V52C0,23.28,23.28,0,52,0h408c28.72,0,52,23.28,52,52v408
+		C512,488.72,488.72,512,460,512z"/>
+</g>
+<g id="Livello_3">
+	<path id="A" class="st1" d="M309.62,351.03H203.09l-23.41,82.36h-58.06L232.35,78.6h49.4L390.39,433.4h-57.83L309.62,351.03z
+		 M217.37,301.08h78.2l-38.63-139.14L217.37,301.08z"/>
+</g>
 </svg>
