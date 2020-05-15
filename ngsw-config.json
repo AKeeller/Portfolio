@@ -7,17 +7,29 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
           "/index.html",
           "/manifest.webmanifest",
           "/*.css",
           "/*.js"
         ]
       }
-    }, {
+    },
+    {
+      "name": "required_assets",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/picture.jpg"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/**"
+        ]
+      }
+
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
-      "updateMode": "prefetch",
       "resources": {
         "files": [
           "/assets/**",
