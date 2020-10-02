@@ -19,7 +19,7 @@ export class HomeComponent {
   get age() {
     const birthdate = new Date('1994-08-20');
     const diff = Date.now() - birthdate.getTime();
-    return Math.floor( diff / 1000 / 60 / 60 / 24 / 365.25 );
+    return Math.floor( diff / 1000 / 60 / 60 / 24 / 365.256 );
   }
 
 }
