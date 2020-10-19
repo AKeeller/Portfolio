@@ -6,8 +6,8 @@ import { AboutMeComponent } from './home/more/about-me/about-me.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about-me', component: AboutMeComponent },
+  { path: '', component: HomeComponent, data: {animation: 'HomePage'} },
+  { path: 'about-me', component: AboutMeComponent, data: {animation: 'AboutPage'} },
   { path: '**', redirectTo: '' }
 ];
 
