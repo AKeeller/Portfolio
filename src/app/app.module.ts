@@ -13,6 +13,8 @@ import { AboutMeComponent } from './home/more/about-me/about-me.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { ProjectsComponent } from './home/more/projects/projects.component';
+import { BigTitleComponent } from './home/about/big-title.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
     HomeComponent,
     AboutComponent,
     AboutMeComponent,
-    SocialIconsComponent
+    SocialIconsComponent,
+    ProjectsComponent,
+    BigTitleComponent
   ],
   imports: [
     BrowserModule,

@@ -2,8 +2,9 @@ import { Component, Input } from '@angular/core';
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'about[icon][title]',
-  templateUrl: './about.component.html'
+  selector: 'about[title]',
+  templateUrl: './about.component.html',
+  styleUrls: ['about.component.css']
 })
 export class AboutComponent {
 
@@ -12,5 +13,8 @@ export class AboutComponent {
 
   @Input()
   icon: IconDefinition;
+
+  @Input()
+  image: string;
 
 }

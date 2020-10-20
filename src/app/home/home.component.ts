@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import {
-  faAddressCard, faTerminal, faFileUpload
+  faAddressCard, faTerminal, faHammer, faFileUpload
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -14,6 +14,7 @@ export class HomeComponent {
 
   faAddressCard = faAddressCard;
   faTerminal = faTerminal;
+  faHammer = faHammer;
   faFileUpload = faFileUpload;
 
   get age() {
