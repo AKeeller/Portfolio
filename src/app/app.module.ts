@@ -15,6 +15,7 @@ import { environment } from '../environments/environment';
 import { SocialIconsComponent } from './components/social-icons/social-icons.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { BigTitleComponent } from './components/big-title/big-title.component';
+import { RatingComponent } from './components/rating/rating.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BigTitleComponent } from './components/big-title/big-title.component';
     AboutMeComponent,
     SocialIconsComponent,
     ProjectsComponent,
-    BigTitleComponent
+    BigTitleComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,
