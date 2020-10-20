@@ -7,14 +7,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ChapterComponent } from './home/about/chapter.component';
-import { AboutMeComponent } from './home/more/about-me/about-me.component';
+import { ChapterComponent } from './components/chapter/chapter.component';
+import { AboutMeComponent } from './sections/about-me/about-me.component';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { SocialIconsComponent } from './social-icons/social-icons.component';
-import { ProjectsComponent } from './home/more/projects/projects.component';
-import { BigTitleComponent } from './home/about/big-title.component';
+import { SocialIconsComponent } from './components/social-icons/social-icons.component';
+import { ProjectsComponent } from './sections/projects/projects.component';
+import { BigTitleComponent } from './components/big-title/big-title.component';
 
 @NgModule({
   declarations: [
