@@ -4,5 +4,7 @@
     <img *ngIf="image" [src]="image">
     {{ title }}
   </h2>
-  <ng-content></ng-content>
+  <div class="content">
+    <ng-content></ng-content>
+  </div>
 </section>
