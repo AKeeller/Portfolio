@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { AboutComponent } from './home/about/about.component';
+import { ChapterComponent } from './home/about/chapter.component';
 import { AboutMeComponent } from './home/more/about-me/about-me.component';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -20,7 +20,7 @@ import { BigTitleComponent } from './home/about/big-title.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
+    ChapterComponent,
     AboutMeComponent,
     SocialIconsComponent,
     ProjectsComponent,

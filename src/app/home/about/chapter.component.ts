@@ -2,11 +2,11 @@ import { Component, Input } from '@angular/core';
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'about[title]',
-  templateUrl: './about.component.html',
-  styleUrls: ['about.component.css']
+  selector: 'chapter[title]',
+  templateUrl: './chapter.component.html',
+  styleUrls: ['chapter.component.css']
 })
-export class AboutComponent {
+export class ChapterComponent {
 
   @Input()
   title: string;
