@@ -8,7 +8,7 @@ import { CodingComponent } from './sections/coding/coding.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: {animation: 'HomePage'} },
-  { path: 'projects', component: ProjectsComponent },
+  { path: 'projects', component: ProjectsComponent, data: {animation: 'ProjectsPage'} },
   { path: 'coding', component: CodingComponent, data: {animation: 'CodingPage'} },
   { path: '**', redirectTo: '' }
 ];
