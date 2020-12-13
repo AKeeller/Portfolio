@@ -15,7 +15,8 @@ import { environment } from '../environments/environment';
 import { SocialIconsComponent } from './components/social-icons/social-icons.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { BigTitleComponent } from './components/big-title/big-title.component';
-import { RatingComponent } from './components/rating/rating.component'
+import { RatingComponent } from './components/rating/rating.component';
+import { CodingComponent } from './sections/coding/coding.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { RatingComponent } from './components/rating/rating.component'
     SocialIconsComponent,
     ProjectsComponent,
     BigTitleComponent,
-    RatingComponent
+    RatingComponent,
+    CodingComponent
   ],
   imports: [
     BrowserModule,

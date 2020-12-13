@@ -1,0 +1,93 @@
+<big-title [icon]="faTerminal">
+  Coding
+</big-title>
+
+<hr style="margin: 60px 0px;">
+
+<chapter [icon]="faBook" title="Knowledge">
+  <ul class="list">
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faDesktop"></fa-icon>
+      <span>
+        Great knowledge of <a href="https://www.apple.com/macos" target="_blank">macOS</a> and <a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based" target="_blank">Debian-based</a> operating systems, in particular <a href="https://www.raspberrypi.org" target="_blank">Raspberry Pi OS</a>.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faPaintBrush"></fa-icon>
+      <span>
+        Good knowledge of <a href="https://www.adobe.com/it/products/photoshop" target="_blank">Adobe Photoshop</a> and <a href="https://www.adobe.com/it/products/illustrator" target="_blank">Adobe Illustrator</a>.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faFeatherAlt"></fa-icon>
+      <span>
+        Good knowledge of <a href="https://www.latex-project.org" target="_blank">LaTeX</a>, a high-quality typesetting system.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faPhotoVideo"></fa-icon>
+      <span>
+        Good knowledge of Audio/Video and Image processing with <a href="https://ffmpeg.org" target="_blank">ffmpeg</a>.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faSquareRootAlt"></fa-icon>
+      <span>
+        I've always been very good at math.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faKey"></fa-icon>
+      <span>
+        Basic knowledge of cryptography concepts like hash, digital signatures, AES, RSA.
+        <br>
+        Network and OS security.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faGlobeAmericas"></fa-icon>
+      <span>
+        Basic knowledge of <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank">front-end development</a>.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faServer"></fa-icon>
+      Basic knowledge of back-end development.
+    </li>
+  </ul>
+</chapter>
+
+<chapter [icon]="faTools" title="Tools">
+  <ul>
+    <li>
+      Here's a list of some miscellaneous tools I learned to use over time: Gradle, gdb, git, Notion, Visual Studio, Visual Studio Code, Xcode.
+    </li>
+  </ul>
+</chapter>
+
+<chapter [icon]="faThumbsUp" title="What I like">
+  <ul class="list">
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faDraftingCompass"></fa-icon>
+      <span>
+        I'm a huge fan of mobile app development, in particular for <a href="https://www.apple.com/ios" target="_blank"><b>iOS</b></a> and <a href="https://www.apple.com/ipados" target="_blank"><b>iPadOS</b></a> devices, but I love <a href="https://www.apple.com/macos" target="_blank"><b>macOS</b></a> too. In this particular circumstances, my primary <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" target="_blank">IDE</a> is <a href="https://developer.apple.com/xcode" target="_blank">Xcode</a>.
+      </span>
+    </li>
+    <li>
+      <fa-icon [fixedWidth]="true" [icon]="faNetworkWired"></fa-icon>
+      <span>
+        I really like everything related to <a href="https://en.wikipedia.org/wiki/Computer_network" target="_blank"><i>networking</i></a>: ranging from low level protocols, like <a href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol" target="_blank">ARP</a> and <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank">TCP</a>/<a href="https://en.wikipedia.org/wiki/Internet_Protocol" target="_blank">IP</a>, up to the <a href="https://en.wikipedia.org/wiki/Application_layer" target="_blank">application layer</a> for things like <a href="https://en.wikipedia.org/wiki/Domain_Name_System" target="_blank">DNS</a>, <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">HTTP</a> and so on.
+        I also like other things like <a href="https://en.wikipedia.org/wiki/Subnetwork" target="_blank">subnetting</a>, <a href="https://en.wikipedia.org/wiki/Virtual_LAN" target="_blank">VLAN</a>, <a href="https://en.wikipedia.org/wiki/Routing" target="_blank">routing</a>, <a href="https://en.wikipedia.org/wiki/Wireless" target="_blank">wireless</a> communication standards, <a href="https://en.wikipedia.org/wiki/Et_cetera" target="_blank">et cetera</a>.
+      </span>
+    </li>
+  </ul>
+</chapter>
+
+<chapter [icon]="faAward" title="Skills">
+  This is a reference list of my skills in various programming languages.
+  <ul>
+    <li style="padding-top: 5px;" *ngFor="let l of languages | keyvalue">
+      <rating [stars]="l.value">{{l.key}}</rating>
+    </li>
+  </ul>
+</chapter>

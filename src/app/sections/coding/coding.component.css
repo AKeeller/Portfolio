@@ -1,0 +1,16 @@
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.list li {
+	padding-bottom: 12px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+ul.list li fa-icon {
+	padding-right: 12px;
+}
