@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ChapterComponent } from './components/chapter/chapter.component';
-import { AboutMeComponent } from './sections/about-me/about-me.component';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -23,7 +22,6 @@ import { CodingComponent } from './sections/coding/coding.component'
     AppComponent,
     HomeComponent,
     ChapterComponent,
-    AboutMeComponent,
     SocialIconsComponent,
     ProjectsComponent,
     BigTitleComponent,
