@@ -10,19 +10,19 @@
           "skipTests": true
         },
         "@schematics/angular:directive": {
-            "skipTests": true
+          "skipTests": true
         },
         "@schematics/angular:modules": {
-            "skipTests": true
+          "skipTests": true
         },
         "@schematics/angular:pipe": {
-            "skipTests": true
+          "skipTests": true
         },
         "@schematics/angular:service": {
-            "skipTests": true
+          "skipTests": true
         },
         "@schematics/angular:class": {
-            "skipTests": true
+          "skipTests": true
         }
       },
       "root": "",
@@ -137,6 +137,10 @@
               "devServerTarget": "Personal-Website:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

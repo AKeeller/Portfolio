@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "portfolio-8a34e": {
+      "hosting": {
+        "Personal-Website": [
+          "portfolio-8a34e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "portfolio-8a34e"
+  }
+}
