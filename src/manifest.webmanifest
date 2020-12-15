@@ -3,5 +3,11 @@
   "short_name": "Amoruso",
   "display": "standalone",
   "scope": "./",
-  "start_url": "./"
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "150x150"
+    }
+  ]
 }
