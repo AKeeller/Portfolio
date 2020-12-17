@@ -11,7 +11,37 @@ body {
 
 a {
   text-decoration: none;
-  color:currentColor;
+  color: currentColor;
+}
+
+.link {
+  position: relative;
+  color: black;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 1.3px;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: black;
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all 0.2s ease-out 0s;
+}
+
+.link:hover::before {
+  visibility: hidden;
+  transform: scaleX(0);
+}
+
+a:hover > .link::before {
+  visibility: hidden;
+  transform: scaleX(0);
 }
 
 hr {
@@ -23,6 +53,12 @@ hr {
   body {
     background-color: black;
     color: #ccc;
+  }
+  .link {
+    color: #e9e9e9;
+  }
+  .link::before {
+    background-color: #e9e9e9;
   }
   img {
     opacity: 0.9;
