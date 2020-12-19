@@ -73,10 +73,10 @@ hr {
     color: #ccc;
   }
   .link {
-    color: #ccc;
+    color: currentColor;
   }
   .link::before {
-    background-color: #ccc;
+    background-color: currentColor;
   }
   .highlighted {
     color: #ccc;
