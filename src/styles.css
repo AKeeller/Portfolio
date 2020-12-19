@@ -18,6 +18,10 @@ a {
   color: black;
 }
 
+.highlighted {
+  color: black;
+}
+
 hr {
   opacity: 0.4;
   border-width: 0.3px;
@@ -73,6 +77,9 @@ hr {
   }
   .link::before {
     background-color: #ccc;
+  }
+  .highlighted {
+    color: #ccc;
   }
   img {
     opacity: 0.9;
