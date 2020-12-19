@@ -17,6 +17,7 @@ a {
 .link {
   position: relative;
   color: black;
+  white-space: nowrap;
 }
 
 .link::before {
