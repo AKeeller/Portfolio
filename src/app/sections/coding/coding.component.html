@@ -86,8 +86,8 @@
 <chapter [icon]="faAward" title="Skills">
   This is a reference list of my skills in various programming languages.
   <ul>
-    <li style="padding-top: 5px;" *ngFor="let l of languages | keyvalue">
-      <rating [stars]="l.value">{{l.key}}</rating>
+    <li style="padding-top: 5px;" *ngFor="let l of languages">
+      <rating [stars]="l[1]"><a [href]="l[2]" target="_blank">{{l[0]}}</a></rating>
     </li>
   </ul>
 </chapter>
