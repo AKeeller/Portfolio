@@ -15,39 +15,52 @@ a {
 }
 
 .link {
-  position: relative;
   color: black;
-  white-space: nowrap;
-}
-
-.link::before {
-  content: "";
-  position: absolute;
-  width: 95%;
-  height: 1.3px;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background-color: black;
-  visibility: visible;
-  transform: scaleX(1);
-  transition: all 0.2s ease-out 0s;
-}
-
-.link:hover::before {
-  visibility: hidden;
-  transform: scaleX(0);
-}
-
-a:hover > .link::before {
-  visibility: hidden;
-  transform: scaleX(0);
 }
 
 hr {
   opacity: 0.4;
   border-width: 0.3px;
+}
+
+@media (hover: none) {
+  .link {
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-underline-offset: 3px;
+  }
+}
+
+@media (hover: hover) {
+  .link {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .link::before {
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 1.2px;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: black;
+    visibility: visible;
+    transform: scaleX(1);
+    transition: all 0.2s ease-out 0s;
+  }
+  
+  .link:hover::before {
+    visibility: hidden;
+    transform: scaleX(0);
+  }
+  
+  a:hover > .link::before {
+    visibility: hidden;
+    transform: scaleX(0);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
