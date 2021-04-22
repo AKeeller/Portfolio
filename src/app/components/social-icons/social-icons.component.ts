@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { IconDefinition } from '@fortawesome/free-brands-svg-icons';
 
 import {
   faFacebookF, faTelegramPlane, faFacebookMessenger, faBitbucket, faGithub, faPaypal
@@ -9,11 +8,6 @@ import {
   faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
 
-interface Social {
-  icon: IconDefinition;
-  link: string;
-}
-
 @Component({
   selector: 'social-icons',
   templateUrl: './social-icons.component.html',
@@ -21,7 +15,7 @@ interface Social {
 })
 export class SocialIconsComponent {
 
-  socials: Social[] = [
+  socials = [
     { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
     { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
     { icon: faTelegramPlane, link: "https://t.me/AKeeller" },
