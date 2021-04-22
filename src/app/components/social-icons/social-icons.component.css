@@ -12,15 +12,9 @@ span.social-icons {
   align-items: center;
 }
 
-a.social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: 0.3s;
-}
-
 @media (hover: hover) {
   a.social-icons:hover {
+    transition-duration: 0.3s;
     transform: scale(1.3);
   }
 }
