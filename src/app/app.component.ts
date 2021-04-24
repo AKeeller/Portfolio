@@ -15,8 +15,8 @@ export class AppComponent implements OnInit {
   constructor(private meta: Meta) { }
 
   ngOnInit() {
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
-      this.setColorScheme(e.matches ? 'dark' : 'light');
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", (event) => {
+      this.setColorScheme(event.matches ? 'dark' : 'light')
     })
   }
 
