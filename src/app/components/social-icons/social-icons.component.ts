@@ -22,7 +22,7 @@ export class SocialIconsComponent {
     { icon: faBitbucket, link: "https://bitbucket.org/AKeeller/" },
     { icon: faGithub, link: "https://github.com/AKeeller" },
     { icon: faPaypal, link: "https://www.paypal.me/AlbertoAmoruso" },
-    { icon: faEnvelope, link: "mailto:alberto.am@me.com" }
+    { icon: faEnvelope, link: "mailto:alberto@amoruso.dev" }
   ];
 
 }
