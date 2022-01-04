@@ -19,7 +19,6 @@ export class SocialIconsComponent {
     { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
     { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
     { icon: faTelegramPlane, link: "https://t.me/AKeeller" },
-    { icon: faBitbucket, link: "https://bitbucket.org/AKeeller/" },
     { icon: faGithub, link: "https://github.com/AKeeller" },
     { icon: faPaypal, link: "https://www.paypal.me/AlbertoAmoruso" },
     { icon: faEnvelope, link: "mailto:alberto@amoruso.dev" }
