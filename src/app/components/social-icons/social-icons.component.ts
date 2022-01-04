@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import {
-  faFacebookF, faTelegramPlane, faFacebookMessenger, faBitbucket, faGithub, faPaypal
+  faFacebookF, faTelegramPlane, faFacebookMessenger, faGithub, faPaypal
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
