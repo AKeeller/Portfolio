@@ -9,8 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ChapterComponent } from './components/chapter/chapter.component';
 
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
 import { SocialIconsComponent } from './components/social-icons/social-icons.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
 import { BigTitleComponent } from './components/big-title/big-title.component';
@@ -32,8 +30,7 @@ import { CodingComponent } from './sections/coding/coding.component'
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    FontAwesomeModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
