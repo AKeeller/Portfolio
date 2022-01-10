@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "scripts": {
     "start": "ng serve -o",
     "host-start": "ng serve -o --host 0.0.0.0",
