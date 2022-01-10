@@ -17,7 +17,6 @@
 
 .nickname, .fullname {
   margin: 0 auto;
-  white-space: nowrap;
 }
 
 hr.divisor {
