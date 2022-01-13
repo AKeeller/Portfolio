@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { Meta } from '@angular/platform-browser';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router'
 
 import { fadeInOutAnimation } from './animations'
@@ -10,22 +9,7 @@ import { fadeInOutAnimation } from './animations'
   animations: [fadeInOutAnimation]
 })
 
-export class AppComponent implements OnInit {
-
-  constructor(private meta: Meta) { }
-
-  ngOnInit() {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", (event) => {
-      this.setColorScheme(event.matches ? 'dark' : 'light')
-    })
-  }
-
-  setColorScheme(scheme: 'dark' | 'light') {
-    if (scheme == 'dark')
-      this.meta.updateTag({ name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' });
-    else
-      this.meta.updateTag({ name: 'apple-mobile-web-app-status-bar-style', content: 'default' });
-  }
+export class AppComponent {
 
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
