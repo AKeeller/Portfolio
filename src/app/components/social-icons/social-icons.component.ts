@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import {
-  faFacebookF, faTelegramPlane, faFacebookMessenger, faGithub, faPaypal
+  faTelegramPlane, faFacebookMessenger, faGithub, faPaypal
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -18,7 +18,6 @@ import { faStadia } from 'src/app/fontawesome/custom-icons/icons';
 export class SocialIconsComponent {
 
   socials = [
-    { icon: faFacebookF, link: "https://www.facebook.com/AKeeller" },
     { icon: faStadia, link: "https://stadia.com/profile/16863763696130835909" },
     { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
     { icon: faTelegramPlane, link: "https://t.me/AKeeller" },
