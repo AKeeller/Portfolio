@@ -1,0 +1,1 @@
+export { faStadia } from './fa-stadia';
