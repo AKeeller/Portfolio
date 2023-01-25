@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import {
-  faTelegramPlane, faFacebookMessenger, faGithub, faPaypal
+  faTelegramPlane, faGithub, faPaypal
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -16,7 +16,6 @@ import {
 export class SocialIconsComponent {
 
   socials = [
-    { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
     { icon: faTelegramPlane, link: "https://t.me/AKeeller" },
     { icon: faGithub, link: "https://github.com/AKeeller" },
     { icon: faPaypal, link: "https://www.paypal.me/AlbertoAmoruso" },
