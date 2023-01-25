@@ -8,8 +8,6 @@ import {
   faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
 
-import { faStadia } from 'src/app/fontawesome/custom-icons/icons';
-
 @Component({
   selector: 'social-icons',
   templateUrl: './social-icons.component.html',
@@ -18,7 +16,6 @@ import { faStadia } from 'src/app/fontawesome/custom-icons/icons';
 export class SocialIconsComponent {
 
   socials = [
-    { icon: faStadia, link: "https://stadia.com/profile/16863763696130835909" },
     { icon: faFacebookMessenger, link: "http://m.me/AKeeller" },
     { icon: faTelegramPlane, link: "https://t.me/AKeeller" },
     { icon: faGithub, link: "https://github.com/AKeeller" },

@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FontAwesomeCustomIconsModule } from './fontawesome.module';
 import { ChapterComponent } from './components/chapter/chapter.component';
 
 import { SocialIconsComponent } from './components/social-icons/social-icons.component';
@@ -31,8 +30,7 @@ import { CodingComponent } from './sections/coding/coding.component'
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    FontAwesomeModule,
-    FontAwesomeCustomIconsModule
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
