@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 import {
   faTelegramPlane, faGithub, faPaypal
-} from '@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-brands-svg-icons'
 
 import {
   faEnvelope
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'social-icons',
@@ -20,6 +20,6 @@ export class SocialIconsComponent {
     { icon: faGithub, link: "https://github.com/AKeeller" },
     { icon: faPaypal, link: "https://www.paypal.me/AlbertoAmoruso" },
     { icon: faEnvelope, link: "mailto:alberto@amoruso.dev" }
-  ];
+  ]
 
 }

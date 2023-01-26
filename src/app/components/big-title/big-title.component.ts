@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { Component, Input } from '@angular/core'
+import { IconDefinition } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'big-title',
@@ -8,6 +8,6 @@ import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 export class BigTitleComponent {
 
   @Input()
-  icon: IconDefinition;
+  icon: IconDefinition
 
 }

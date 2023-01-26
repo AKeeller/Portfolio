@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 import {
   faHammer
-} from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'projects',
@@ -10,6 +10,6 @@ import {
 })
 export class ProjectsComponent {
 
-  faHammer = faHammer;
+  faHammer = faHammer
 
 }

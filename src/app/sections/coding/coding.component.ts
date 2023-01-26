@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 import {
   faTerminal, faAward, faThumbsUp, faBook, faNetworkWired, faDesktop, faPaintBrush, faSquareRootAlt, faGlobeAmericas, faServer, faDraftingCompass, faTools, faKey, faFeatherAlt, faPhotoVideo
 } from '@fortawesome/free-solid-svg-icons'

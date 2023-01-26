@@ -1,7 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input } from '@angular/core'
 
-import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
-import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
+import { IconDefinition } from '@fortawesome/free-solid-svg-icons'
+import { faStar as farStar } from '@fortawesome/free-regular-svg-icons'
 import { faStar as fasStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
