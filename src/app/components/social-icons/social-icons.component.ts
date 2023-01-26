@@ -16,10 +16,10 @@ import {
 export class SocialIconsComponent {
 
   socials = [
-    { icon: faTelegramPlane, link: "https://t.me/AKeeller" },
-    { icon: faGithub, link: "https://github.com/AKeeller" },
-    { icon: faPaypal, link: "https://www.paypal.me/AlbertoAmoruso" },
-    { icon: faEnvelope, link: "mailto:alberto@amoruso.dev" }
+    { icon: faTelegramPlane, link: 'https://t.me/AKeeller' },
+    { icon: faGithub, link: 'https://github.com/AKeeller' },
+    { icon: faPaypal, link: 'https://www.paypal.me/AlbertoAmoruso' },
+    { icon: faEnvelope, link: 'mailto:alberto@amoruso.dev' }
   ]
 
 }
