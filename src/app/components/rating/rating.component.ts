@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core'
+import { Component, Input, OnInit } from '@angular/core'
 
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons'
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons'
@@ -8,7 +8,7 @@ import { faStar as fasStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-ic
   selector: 'rating[stars]',
   templateUrl: './rating.component.html'
 })
-export class RatingComponent {
+export class RatingComponent implements OnInit {
 
   @Input()
   stars: number
