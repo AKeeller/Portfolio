@@ -19,7 +19,7 @@ span.social-icons {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 320px) {
   hr.line {
     display: none;
   }
