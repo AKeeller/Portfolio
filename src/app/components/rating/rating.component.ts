@@ -16,7 +16,7 @@ export class RatingComponent {
   icons: IconDefinition[] = []
 
   ngOnInit() {
-    let maxStars = 5
+    const maxStars = 5
 
     if (this.stars > maxStars)
       this.stars = maxStars
