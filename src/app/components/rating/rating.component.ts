@@ -27,7 +27,7 @@ export class RatingComponent {
     for (let i = 0; i < Math.floor(this.stars); i++)
       this.icons.push(fasStar)
 
-    if (this.stars % 1 != 0)
+    if (this.stars % 1 !== 0)
       this.icons.push(faStarHalfAlt)
 
     for (let i = 0; i < maxStars - Math.ceil(this.stars); i++)
