@@ -40,7 +40,6 @@ export class CodingComponent {
     ['LaTeX', 3, new URL('https://www.latex-project.org')],
     ['Objective-C', 3, new URL('https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html')],
     ['OCaml', 2, new URL('https://ocaml.org')],
-    ['PHP', 1, new URL('https://www.php.net')],
     ['Scala', 2, new URL('https://www.scala-lang.org')],
     ['Swift', 4.5, new URL('https://developer.apple.com/swift/')],
     ['TypeScript', 3.5, new URL('https://www.typescriptlang.org')]
