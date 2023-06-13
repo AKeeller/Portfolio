@@ -33,7 +33,7 @@ export class CodingComponent {
   languages: [string, number, URL][] = [
     ['Bash', 4, new URL('https://www.gnu.org/software/bash/')],
     ['C', 4, new URL('https://www.gnu.org/software/gnu-c-manual/')],
-    ['C#', 3, new URL('https://docs.microsoft.com/dotnet/csharp/')],
+    ['C#', 4.5, new URL('https://docs.microsoft.com/dotnet/csharp/')],
     ['Erlang', 2, new URL('https://www.erlang.org')],
     ['F#', 2, new URL('https://fsharp.org')],
     ['Java', 4, new URL('https://java.com')],
