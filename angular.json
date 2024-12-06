@@ -85,18 +85,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Personal-Website:build"
+            "buildTarget": "Personal-Website:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Personal-Website:build:production"
+              "buildTarget": "Personal-Website:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Personal-Website:build"
+            "buildTarget": "Personal-Website:build"
           }
         },
         "lint": {
