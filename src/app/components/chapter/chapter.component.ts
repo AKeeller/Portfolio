@@ -4,7 +4,8 @@ import { IconDefinition } from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'chapter[title]',
   templateUrl: './chapter.component.html',
-  styleUrls: ['chapter.component.css']
+  styleUrls: ['chapter.component.css'],
+  standalone: false
 })
 export class ChapterComponent {
 

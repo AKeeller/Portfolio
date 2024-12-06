@@ -9,7 +9,8 @@ import { faGitAlt } from '@fortawesome/free-brands-svg-icons'
 @Component({
   selector: 'app-coding',
   templateUrl: './coding.component.html',
-  styleUrls: ['./coding.component.css']
+  styleUrls: ['./coding.component.css'],
+  standalone: false
 })
 export class CodingComponent {
 

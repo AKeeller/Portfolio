@@ -6,7 +6,8 @@ import { fadeInOutAnimation } from './animations'
 @Component({
   selector: 'app-root',
   template: '<div [@fadeInOut]="prepareRoute(outlet)"><router-outlet #outlet="outlet"></router-outlet></div>',
-  animations: [fadeInOutAnimation]
+  animations: [fadeInOutAnimation],
+  standalone: false
 })
 
 export class AppComponent {

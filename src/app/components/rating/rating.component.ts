@@ -6,7 +6,8 @@ import { faStar as fasStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-ic
 
 @Component({
   selector: 'rating[stars]',
-  templateUrl: './rating.component.html'
+  templateUrl: './rating.component.html',
+  standalone: false
 })
 export class RatingComponent implements OnInit {
 

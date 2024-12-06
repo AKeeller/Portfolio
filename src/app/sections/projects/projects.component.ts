@@ -6,7 +6,8 @@ import {
 
 @Component({
   selector: 'projects',
-  templateUrl: './projects.component.html'
+  templateUrl: './projects.component.html',
+  standalone: false
 })
 export class ProjectsComponent {
 

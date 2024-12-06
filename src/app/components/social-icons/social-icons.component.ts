@@ -11,7 +11,8 @@ import {
 @Component({
   selector: 'social-icons',
   templateUrl: './social-icons.component.html',
-  styleUrls: ['./social-icons.component.css']
+  styleUrls: ['./social-icons.component.css'],
+  standalone: false
 })
 export class SocialIconsComponent {
 
