@@ -25,7 +25,7 @@ WORKDIR /busybox-${BUSYBOX_VERSION}
 
 ADD https://github.com/lipanski/docker-static-website/raw/a2143a70fe21a40f46b30edcaa20239df8e40cc0/.config .
 
-RUN yes n | make oldconfig && make -j 8
+RUN yes n | make oldconfig && make -j $(nproc)
 
 #######################################
 
