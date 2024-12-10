@@ -2,7 +2,7 @@ ARG BUSYBOX_VERSION=1.37.0
 
 #######################################
 
-FROM --platform=$BUILDPLATFORM node AS builder-npm
+FROM --platform=$BUILDPLATFORM node:lts AS builder-npm
 
 WORKDIR /usr/local/app/
 
