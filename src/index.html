@@ -1,15 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Alberto Amoruso</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="icon" href="assets/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+  <!-- Favicon links (as before) -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512‑…" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="css/base/styles.css" />
+  <link rel="stylesheet" href="css/pages/home.css" />
+  <link rel="stylesheet" href="css/components/social-icons.css" />
 </head>
+
 <body>
-  <app-root></app-root>
+  <header class="header">
+    <img class="picture" src="assets/picture.jpg" alt="Profile picture" />
+    <div>
+      <h1 class="fullname">Alberto Amoruso</h1>
+      <a class="nickname" target="_blank" href="https://t.me/AKeeller" rel="noopener">@AKeeller</a>
+    </div>
+  </header>
+
+  <hr class="divisor" />
+
+  <!-- About chapter -->
+  <section class="chapter">
+    <div class="chapter-header">
+      <i class="fas fa-address-card fa-2x"></i>
+      <h2>About</h2>
+    </div>
+    <p>
+      <span id="age"></span> years old computer scientist. Passionate about
+      coding and always expanding my tech knowledge 🚀💻
+    </p>
+    <p>
+      I live my life one <code>commit [--amend]</code> at a time.
+    </p>
+  </section>
+
+  <!-- Code chapter -->
+  <section class="chapter">
+    <div class="chapter-header">
+      <i class="fas fa-terminal fa-2x"></i>
+      <h2>Code</h2>
+    </div>
+    <p>I love coding. It has always been my passion since I was a child.</p>
+    <p>
+      <a href="coding.html"><span class="link">Click here</span> to find out everything about my skills and my everyday
+        tools.</a>
+    </p>
+  </section>
+
+  <!-- Projects chapter -->
+  <section class="chapter">
+    <div class="chapter-header">
+      <i class="fas fa-hammer fa-2x"></i>
+      <h2>Projects</h2>
+    </div>
+    <p>
+      <a href="projects.html">
+        For a list of my projects, <span class="link">click here</span>.
+      </a>
+    </p>
+  </section>
+
+  <footer class="social-footer">
+    <hr class="line" />
+
+    <a class="social-icon" href="https://www.linkedin.com/in/alberto-amoruso" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg"></i>
+    </a>
+
+    <a class="social-icon" href="https://t.me/AKeeller" target="_blank" rel="noopener">
+      <i class="fab fa-telegram-plane fa-lg"></i>
+    </a>
+
+    <a class="social-icon" href="https://github.com/AKeeller" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg"></i>
+    </a>
+
+    <a class="social-icon" href="https://www.paypal.me/AlbertoAmoruso" target="_blank" rel="noopener">
+      <i class="fab fa-paypal fa-lg"></i>
+    </a>
+
+    <a class="social-icon" href="mailto:alberto@amoruso.dev" target="_blank" rel="noopener">
+      <i class="fas fa-envelope fa-lg"></i>
+    </a>
+
+    <hr class="line" />
+  </footer>
+
+  <script src="main.js"></script>
 </body>
+
 </html>
