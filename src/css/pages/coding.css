@@ -1,0 +1,16 @@
+.entries {
+	list-style: none;
+	padding-left: 1em;
+}
+
+.entries li {
+	padding-bottom: 1em;
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	align-items: baseline;
+}
+
+.stars {
+	font-family: none;
+}

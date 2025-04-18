@@ -27,6 +27,16 @@ hr {
   border-width: 0.3px;
 }
 
+.gray-text {
+  color: rgb(76, 76, 76);
+}
+
+@media (prefers-color-scheme: dark) {
+  .gray-text {
+    color: rgb(143, 143, 143);
+  }
+}
+
 @media (hover: none) {
   .link {
     text-decoration: underline;
