@@ -27,12 +27,27 @@ hr {
   border-width: 0.3px;
 }
 
-.gray-text {
+.big-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 3em;
+}
+
+.imaged-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.gray-text p,
+.gray-text span {
   color: rgb(76, 76, 76);
 }
 
 @media (prefers-color-scheme: dark) {
-  .gray-text {
+  .gray-text p,
+  .gray-text span {
     color: rgb(143, 143, 143);
   }
 }
