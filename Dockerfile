@@ -2,17 +2,6 @@ ARG BUSYBOX_VERSION=1.37.0
 
 #######################################
 
-FROM --platform=$BUILDPLATFORM node:lts AS builder-npm
-
-WORKDIR /usr/local/app/
-
-COPY . .
-
-RUN npm install
-RUN npm run build
-
-#######################################
-
 FROM alpine AS builder-busybox
 
 RUN apk add --no-cache gcc musl-dev make perl
@@ -34,7 +23,7 @@ FROM scratch
 ARG BUSYBOX_VERSION
 
 COPY --from=builder-busybox /busybox-${BUSYBOX_VERSION}/busybox /bin/
-COPY --from=builder-npm /usr/local/app/dist/Personal-Website /var/www/html
+COPY src /var/www/html
 
 USER 2000:2000
 
