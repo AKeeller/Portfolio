@@ -11,6 +11,25 @@
 	align-items: baseline;
 }
 
-.stars {
-	font-family: none;
+.skills-table {
+	width: 100%;
+	margin-top: 1em;
+	font-size: 1rem;
+}
+
+.skills-table th,
+.skills-table td {
+	padding: 0.75em 1em;
+	text-align: left;
+	border-bottom: none;
+}
+
+.skills-table th {
+	font-weight: 600;
+}
+
+@media (max-width: 600px) {
+	.skills-table {
+		font-size: 0.9rem;
+	}
 }
