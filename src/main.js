@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const today = new Date();
+const isValentinesDay = today.getMonth() === 1 && today.getDate() === 14;
 const isBirthday = today.getMonth() === 7 && today.getDate() === 20;
 const isWinter = (today.getMonth() === 11) || (today.getMonth() === 0);
 
@@ -30,3 +31,6 @@ if (isBirthday) {
 
 if (isWinter)
     startSnow()
+
+if (isValentinesDay)
+    startHearts()
