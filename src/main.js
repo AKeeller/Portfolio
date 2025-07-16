@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const today = new Date();
 const isBirthday = today.getMonth() === 7 && today.getDate() === 20;
+const isWinter = (today.getMonth() === 11) || (today.getMonth() === 0);
 
 if (isBirthday) {
     setTimeout(() => {
@@ -26,3 +27,6 @@ if (isBirthday) {
         confetti();
     }, 1000);
 }
+
+if (isWinter)
+    startSnow()
