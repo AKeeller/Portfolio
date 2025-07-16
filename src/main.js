@@ -15,19 +15,8 @@ const isValentinesDay = today.getMonth() === 1 && today.getDate() === 14;
 const isBirthday = today.getMonth() === 7 && today.getDate() === 20;
 const isWinter = (today.getMonth() === 11) || (today.getMonth() === 0);
 
-if (isBirthday) {
-    setTimeout(() => {
-        confetti({ angle: 60, spread: 55, origin: { x: 0 } });
-    }, 300);
-
-    setTimeout(() => {
-        confetti({ angle: 120, spread: 55, origin: { x: 1 } });
-    }, 500);
-
-    setTimeout(() => {
-        confetti();
-    }, 1000);
-}
+if (isBirthday)
+    startConfetti()
 
 if (isWinter)
     startSnow()
