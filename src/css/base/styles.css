@@ -3,110 +3,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 body {
-  margin: auto;
-  max-width: 500px;
-  padding: 0px 16px;
-  font-family: 'Roboto Mono', monospace;
+	margin: auto;
+	max-width: 500px;
+	padding: 0px 16px;
+	font-family: 'Roboto Mono', monospace;
 }
 
 a {
-  text-decoration: none;
-  color: currentColor;
+	text-decoration: none;
+	color: currentColor;
 }
 
 .link {
-  color: black;
+	color: black;
 }
 
 .highlighted {
-  color: black;
+	color: black;
 }
 
 hr {
-  opacity: 0.4;
-  border-width: 0.3px;
+	opacity: 0.4;
+	border-width: 0.3px;
 }
 
 .big-title {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  font-size: 3em;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	font-size: 3em;
 }
 
 .imaged-title {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5em;
+	display: flex;
+	align-items: baseline;
+	gap: 0.5em;
 }
 
 .gray-text p,
 .gray-text span {
-  color: rgb(76, 76, 76);
+	color: rgb(76, 76, 76);
 }
 
 @media (prefers-color-scheme: dark) {
-  .gray-text p,
-  .gray-text span {
-    color: rgb(143, 143, 143);
-  }
+	.gray-text p,
+	.gray-text span {
+		color: rgb(143, 143, 143);
+	}
 }
 
 @media (hover: none) {
-  .link {
-    text-decoration: underline;
-    text-decoration-thickness: 1.2px;
-    text-underline-offset: 3px;
-  }
+	.link {
+		text-decoration: underline;
+		text-decoration-thickness: 1.2px;
+		text-underline-offset: 3px;
+	}
 }
 
 @media (hover: hover) {
-  .link {
-    position: relative;
-    white-space: nowrap;
-  }
-  
-  .link::before {
-    content: "";
-    position: absolute;
-    width: 95%;
-    height: 1.2px;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    background-color: black;
-    visibility: visible;
-    transform: scaleX(1);
-    transition: all 0.2s ease-out 0s;
-  }
-  
-  .link:hover::before {
-    visibility: hidden;
-    transform: scaleX(0);
-  }
-  
-  a:hover > .link::before {
-    visibility: hidden;
-    transform: scaleX(0);
-  }
+	.link {
+		position: relative;
+		white-space: nowrap;
+	}
+	
+	.link::before {
+		content: "";
+		position: absolute;
+		width: 95%;
+		height: 1.2px;
+		bottom: -1px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		background-color: black;
+		visibility: visible;
+		transform: scaleX(1);
+		transition: all 0.2s ease-out 0s;
+	}
+	
+	.link:hover::before {
+		visibility: hidden;
+		transform: scaleX(0);
+	}
+	
+	a:hover > .link::before {
+		visibility: hidden;
+		transform: scaleX(0);
+	}
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: black;
-    color: #ccc;
-  }
-  .link {
-    color: currentColor;
-  }
-  .link::before {
-    background-color: currentColor;
-  }
-  .highlighted {
-    color: #ccc;
-  }
-  img {
-    opacity: 0.9;
-  }
+	body {
+		background-color: black;
+		color: #ccc;
+	}
+	.link {
+		color: currentColor;
+	}
+	.link::before {
+		background-color: currentColor;
+	}
+	.highlighted {
+		color: #ccc;
+	}
+	img {
+		opacity: 0.9;
+	}
 }
