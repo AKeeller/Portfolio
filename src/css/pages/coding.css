@@ -11,6 +11,10 @@
 	align-items: baseline;
 }
 
+.entries li p {
+	margin: 0;
+}
+
 .skills-table {
 	width: 100%;
 	margin-top: 1em;

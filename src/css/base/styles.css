@@ -32,14 +32,12 @@ hr {
 	font-size: 3em;
 }
 
-.gray-text p,
-.gray-text span {
+body p {
 	color: rgb(76, 76, 76);
 }
 
 @media (prefers-color-scheme: dark) {
-	.gray-text p,
-	.gray-text span {
+	body p {
 		color: rgb(143, 143, 143);
 	}
 }
