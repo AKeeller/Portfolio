@@ -6,9 +6,8 @@ function calculateAge(birthdate) {
 
 document.addEventListener("DOMContentLoaded", function () {
     const ageSpan = document.getElementById("age");
-    if (ageSpan) {
+    if (ageSpan)
         ageSpan.textContent = String(calculateAge("1994-08-20"));
-    }
 });
 
 const today = new Date();
