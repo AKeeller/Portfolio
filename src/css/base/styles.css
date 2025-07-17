@@ -36,16 +36,6 @@ hr {
 	margin-bottom: 50px;
 }
 
-.chapter-header {
-	display: flex;
-	align-items: center;
-	gap: 1em;
-}
-
-.chapter-header * {
-	margin: 0;
-}
-
 body p {
 	color: rgb(76, 76, 76);
 }
