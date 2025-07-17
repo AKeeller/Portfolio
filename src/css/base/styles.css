@@ -32,12 +32,6 @@ hr {
 	font-size: 3em;
 }
 
-.imaged-title {
-	display: flex;
-	align-items: baseline;
-	gap: 0.5em;
-}
-
 .gray-text p,
 .gray-text span {
 	color: rgb(76, 76, 76);
