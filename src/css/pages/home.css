@@ -6,20 +6,6 @@
 	margin: 30px 0px;
 }
 
-.chapter {
-	margin-bottom: 50px;
-}
-
-.chapter-header {
-	display: flex;
-	align-items: center;
-	gap: 1em;
-}
-
-.chapter-header * {
-	margin: 0;
-}
-
 .picture {
 	width: 120px;
 	height: 120px;
