@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
 body {
 	margin: auto;
 	max-width: 500px;
@@ -7,22 +12,17 @@ body {
 	font-family: 'Roboto Mono', monospace;
 }
 
-a {
-	text-decoration: none;
-	color: currentColor;
-}
-
-.link {
-	color: black;
-}
-
-.highlighted {
-	color: black;
+body p {
+	color: rgb(76, 76, 76);
 }
 
 hr {
 	opacity: 0.4;
 	border-width: 0.3px;
+}
+
+section {
+	margin-bottom: 50px;
 }
 
 .big-title {
@@ -32,12 +32,12 @@ hr {
 	font-size: 3em;
 }
 
-section {
-	margin-bottom: 50px;
+.highlighted {
+	color: black;
 }
 
-body p {
-	color: rgb(76, 76, 76);
+.link {
+	color: black;
 }
 
 @media (prefers-color-scheme: dark) {
