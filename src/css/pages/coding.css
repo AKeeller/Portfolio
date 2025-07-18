@@ -23,7 +23,7 @@
 
 .skills-table th,
 .skills-table td {
-	padding: 0.75em 1em;
+	padding: 0.75em 0em;
 	text-align: left;
 	border-bottom: none;
 }
