@@ -1,4 +1,6 @@
-function startSnow() {
+import confetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.module.mjs';
+
+export function startSnow() {
 	const duration = 3 * 1000;
 	const animationEnd = Date.now() + duration;
 	let skew = 1;
@@ -32,5 +34,3 @@ function startSnow() {
 		}
 	})();
 }
-
-window.startSnow = startSnow;

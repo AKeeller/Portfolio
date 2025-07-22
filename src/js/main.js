@@ -1,3 +1,7 @@
+import { startConfetti } from './confetti.js';
+import { startHearts } from './hearts.js';
+import { startSnow } from './snow.js';
+
 function calculateAge(birthdate) {
 	var birth = new Date(birthdate).getTime();
 	var diff = Date.now() - birth;
