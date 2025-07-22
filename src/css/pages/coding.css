@@ -31,9 +31,3 @@
 .skills-table th {
 	font-weight: 600;
 }
-
-@media (max-width: 600px) {
-	.skills-table {
-		font-size: 0.9rem;
-	}
-}
