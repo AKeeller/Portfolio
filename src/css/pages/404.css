@@ -13,3 +13,9 @@ canvas {
 	height: 100vmin;
 	display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+	}
+}
